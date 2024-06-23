@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta here -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link href="" rel="stylesheet"> 
+      
+          
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Copy Clipboard (Midterm Exam)</title>
+  </head>
+  <body>
+
+    <!--NAV-->
+    <section class="">
+      <nav class="bg-white border-gray-200 dark:bg-green-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="images/RFP-removebg-preview.png" class="h-20 w-100 mr-14 " alt="Flowbite Logo" />
+              <span class="text-3xl p-2  mb-5 ml-10 text-center font-bold from-green-500 via-green-300 bg-green-900 bg-gradient-to-r bg-clip-text text-transparent">RFP</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="text-xl font font-semibold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+              <li>
+                <a href="index.html" href="#" class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+              </li>
+              <li>
+                <a href="stories.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Stories</a>
+              </li>
+              <li>
+                <a href="contact.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--CARASOUEL-->
+
+ <section class="">
+  <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-96 overflow-hidden rounded-lg md:h-100">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/farm1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/farm2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/farm3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/farm4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/farm5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+  </div>
+ </section>
+
+ <!--title-->
+ <section class="bg-white pt-32 pb-32">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-green-800">Rice Farm Production</h1>
+      <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+        Hello! I'm excited to learn more about rice farm production from you! I'm here to listen and absorb knowledge about rice farming, from seed selection to harvesting, and everything in between. Please share your expertise and experiences with me, and I'll do my best to ask insightful questions and provide relevant information to help us both learn and grow. Let's get started!
+        </p>
+<div class="h-20 mb-10">
+  <img src="images/RFP-removebg-preview.png" class="mx-auto">
+</div>
+  </div>
+</section>
+
+ <!-- Card-images-->
+<div class="bg-gray-200 w-full min-h-screen gap-4 flex-wrap flex justify-center items-center">
+
+  <div class="w-80 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg ">
+    <!-- Image -->
+    <img class="h-50 object-cover rounded-xl" h-50 object-cover rounded-xl src="images/basmati 1.jpg" alt="">
+    <div class="p-2">
+    <!-- Heading -->
+    <h2 class="font-bold text-center mb-2 ">Basmati</h2>
+    <!-- Description -->
+    <p class="text-sm text-gray-600">Is a type of white rice, it is grown in the India Himalayas and Pakistan. It is lower calories rather than other Rice.And its name is derived from Sanskrit word “basmati” means “Fragrant” or “Aromatic”. </p>
+    </div>
+  </div>
+
+    <!-- Card -->
+  <div class="w-80 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+    <!-- Image -->
+    <img class="h-50 object-cover rounded-xl" h-50 object-cover rounded-xl src="images/blackrice.jpg" alt="">
+    <div class="p-2">
+    <!-- Heading -->
+    <h2 class="font-bold text-center mb-2 ">Black Rice</h2>
+    <!-- Description -->
+    <p class="text-sm text-gray-600">The origin of Black Rice can be traced back thousands of years to ancient China.ontains a boost of nutrients that help your body. Black rice know as purple rice or forbidden rice. It is Rich in Antioxidants. </p>
+    </div>
+  </div>
+
+    <!-- Card -->
+  <div class="w-80 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+    <!-- Image -->
+    <img class="h-50 object-cover rounded-xl" h-50 object-cover rounded-xl src="images/brown rice 1.jpg" alt="">
+    <div class="p-2">
+    <!-- Heading -->
+    <h2 class="font-bold text-center mb-2 ">Brown Rice</h2>
+    <!-- Description -->
+    <p class="text-sm text-gray-600">Is healtier eating because of Whole grain, brown rice is less processed than white Rice. There are many Benefits or Brown Rice. Like Controls blood Sugar level, Help in Weight Loss, Maintains Bone Health etc. </p>
+    </div>
+  </div>
+  
+      <!-- Card -->
+  <div class="w-80 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+    <!-- Image -->
+    <img class="h-50 object-cover rounded-xl" h-50 object-cover rounded-xl src="images/bomba 1.jpg" alt="">
+    <div class="p-2">
+    <!-- Heading -->
+    <h2 class="font-bold text-center mb-2 ">Bomba Rice</h2>
+    <!-- Description -->
+    <p class="text-sm text-gray-600">Also know as Valencia Rice, The name Valencia comes from the spanish province, home to authentic paella, valencia rice also known as pearl rice or round rice due to short grain and almost round with pearly color.</p>
+    </div>
+  </div>
+  
+  <!-- Card -->
+  <div class="w-80 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
+    <!-- Image -->
+    <img class="h-50 object-cover rounded-xl" h-50 object-cover rounded-xl src="images/WILD RICE3.jpg" alt="">
+    <div class="p-2">
+    <!-- Heading -->
+    <h2 class="font-bold text-center mb-2 ">Wild Rice</h2>
+    <!-- Description -->
+    <p class="text-sm text-gray-600">One of the uniqueness of wild rice it is grow in shallow water in small lakes and slow-flowing streams,and it is know for firm texture and nutty flavor of its long, black grains and it's expensive because of unique harvesting. </p>
+    
+    </div>
+  </div>
+  
+  
+</div>
+  </div>
+</div>
+  </section>
+  
+  <section class="bg-white dark:bg-green-900 overflow-hidden">
+    <section class="text-center">
+      <h1 class="mb-4 text-4xl font-medium leading-none tracking-tight text-gray-900 md:text-3xl lg:text-3xl dark:text-white">Types of Machine in Rice farm</h1>
+    </section>
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="mr-auto place-self-center lg:col-span-7">
+          <h3 class="max-w-xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">Laboy Tiller</h3>
+            <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-2 md:text-lg lg:text-xl dark:text-gray-400">A laboy tiller is a type of farm equipment used in rice farming to break up the soil and prepare it for planting. It is typically a tractor-mounted implement with a set of spinning blades or tines that turn over the soil, loosening and aerating it to a depth of several inches. The laboy tiller is often used in conjunction with other equipment, such as a rice planter, to create a smooth and even surface for planting rice seeds. This process helps to promote healthy root growth and prevents weeds from competing with the rice plants for water and nutrients.</p>
+            <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                
+            </a>
+        </div>
+        <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+            <img src="images/laboytiller.jpg" alt="mockup">
+        </div>                
+    </div>
+
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="mr-auto place-self-center lg:col-span-7">
+          <h3 class="max-w-xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">MicroTiller</h3>
+          <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-2 md:text-lg lg:text-xl dark:text-gray-400">A micro tiller is a compact, lightweight tiller designed for small gardens and precise soil preparation. It is typically used to loosen and aerate soil, break up clods, and prepare the soil for seeding or planting. Micro tillers are ideal for areas with tight spaces, such as between pavers, around trees, or in containers. They are usually powered by a cordless electric motor or a manual crank handle, making them easy to maneuver and environmentally friendly. With its small size and versatility, a micro tiller is a great tool for gardeners who want to maintain precise control over their soil preparation without breaking out a full-sized tiller.
+          <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+             
+          </a>
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+          <img src="images/microtiller1.jpg" alt="mockup">
+      </div>                
+  </div>
+
+  <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div class="mr-auto place-self-center lg:col-span-7">
+      <h3 class="max-w-xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">Ride-on attachment for handtractor</h3>
+      <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-2 md:text-lg lg:text-xl dark:text-gray-400">A ride-on attachment for a hand tractor in a rice farm can significantly increase efficiency and productivity. A popular option is a rice transplanter attachment, which allows farmers to plant seedlings or direct-seed rice at a high speed and accuracy. This attachment can be equipped with features such as adjustable planting depth, row spacing, and fertilizer application, making it an ideal solution for large-scale rice farming operations. Additionally, ride-on attachments like a water tank and sprayer can also be used to provide precise irrigation and pest control, further optimizing the farming process.</p>
+        <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+          
+        </a>
+    </div>
+    <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+        <img src="images/RIDE-ON ATTACHMENT FOR HANDTRACTOR.jpg" alt="mockup">
+    </div>                
+</div>
+
+<div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+  <div class="mr-auto place-self-center lg:col-span-7">
+    <h3 class="max-w-xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">Plastic Drumseeder</h3>
+    <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-2 md:text-lg lg:text-xl dark:text-gray-400">A plastic drum seeder is a type of precision planter used in rice farms to plant rice seeds. It consists of a drum or cylinder filled with seeds, which are dispensed and spread evenly over the soil as the planter moves forward. The drum seeder provides accurate and consistent seed placement, allowing for optimal seed-to-soil contact and germination. This type of planter is particularly useful for rice cultivation, as it enables farmers to plant seeds at the correct depth and spacing for optimal growth and yield.</p>
+      <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+        
+      </a>
+  </div>
+  <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+      <img src="images/PLASTIC DRUMSEEDER.jpg" alt="mockup">
+  </div>                
+</div>
+
+
+<div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+  <div class="mr-auto place-self-center lg:col-span-7">
+    <h3 class="max-w-xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">Seed Cleaner</h3>
+    <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-2 md:text-lg lg:text-xl dark:text-gray-400">A seed cleaner is an essential machine in a rice farm, used to clean and process rice grains to remove impurities, debris, and immature or broken grains. The seed cleaner typically uses air jets, screens, and brushes to separate and remove impurities, leaving clean and high-quality seeds ready for planting or storage. In a rice farm, a seed cleaner is often used to prepare seeds for planting, ensuring a healthy start for the new crop and maximizing yields.</p>
+      <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+        
+      </a>
+  </div>
+  <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+      <img src="images/seed cleaner 1.jpg" alt="mockup">
+  </div>                
+</div>
+
+<div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+  <div class="mr-auto place-self-center lg:col-span-7">
+    <h3 class="max-w-xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">Ripe Reaper Harvester</h3>
+    <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-2 md:text-lg lg:text-xl dark:text-gray-400">Ripe Reaper Harvester is a specialized combine harvester designed specifically for harvesting ripe rice crops. With its advanced features, it efficiently cuts, separates, and collects rice grains, minimizing losses and maximizing yields. Its precise harvesting capabilities allow for targeted collection of ripe grains, while its advanced grain handling system ensures accurate separation and cleaning of the harvested rice. This results in higher quality crops and increased productivity for rice farmers.</p>
+      <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+        
+      </a>
+  </div>
+  <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+      <img src="images/rice reaper harvester.jpg" alt="mockup">
+  </div>                
+</div>
+
+
+      <!-- FOOTER -->
+  <section class="">
+    <footer class="bg-green-950 rounded-lg shadow m-4">
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+              <a href="" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                  <img src="images/RFP-removebg-preview.png" class="h-8" alt="Flowbite Logo" />
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">RFP</span>
+              </a>
+              
+          </div>
+          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <span class="block text-sm text-white sm:text-center dark:text-white"> © 2023 Jamie Dela Cruz </a>. All Rights Reserved.</span>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>
